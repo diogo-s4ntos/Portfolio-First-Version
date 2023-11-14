@@ -606,6 +606,10 @@ input::placeholder{
     #menu_phone_button{
         display: grid;
     }
+
+    #presentation{
+        margin-top: 3.5rem;
+    }
 }
 
 @media screen and (max-width: 426px){
@@ -623,7 +627,7 @@ input::placeholder{
     }
 
     #page-1{
-        padding-top: 3rem;
+        padding-top: 3.3rem;
     }
 
     #page-2{
