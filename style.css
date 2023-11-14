@@ -608,7 +608,36 @@ input::placeholder{
     }
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 426px){
+    #presentation{
+        font-size: 1.1rem;
+        margin-top: 3rem;
+    }
+
+    #diogo_santos{
+        font-size: 3.1rem;
+    }
+
+    #me{
+        width: 60%;
+    }
+
+    #page-1{
+        padding-top: 3rem;
+    }
+
+    #page-2{
+        padding-top: 3rem;
+    }
+
+    #page-3{
+        padding-top: 1rem;
+    }
+    
+    #page-4{
+        padding-top: 1rem;
+    }
+
     form{
         grid-template-columns:
             repeat(6, 1fr);
