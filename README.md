@@ -3,7 +3,7 @@ Idea of portfolio in HTML, CSS  e JavaScript, for presenting my selfe for a posi
 
 <h1>Screenshot</h1>
 
-![portfolio](https://github.com/diogo-s4ntos/Portfolio/assets/117995697/394364e6-690d-4c1b-b0f8-a444a6ae5c3d)
+![Captura de Ecrã (1)](https://github.com/diogo-s4ntos/Portfolio/assets/117995697/e4166647-40be-4753-a9b2-4b80ca8579fa)
 
 <h1>Link</h1>
 <li>Live site URL: <a href="https://diogo-s4ntos.github.io/Portfolio/">Click Here</a></li>
