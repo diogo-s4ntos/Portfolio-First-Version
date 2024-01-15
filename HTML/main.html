@@ -1,0 +1,173 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diogo Santos</title>
+    <link rel="icon" type="image/x-icon" href="../ASSETS/favicon.ico">
+    <link rel="stylesheet" href="../CSS/main.css">
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/root.css">
+    <link rel="stylesheet" href="../CSS/loading.css">
+
+    <!-- Animation -->
+    <link href="https://fonts.cdnfonts.com/css/cartoon-free" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    
+    <!-- Font-Family -->
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/roseamp');
+    </style>
+</head>
+<body>
+    <div id="loading-screen">
+        <div data-glitch="Loading..." class="glitch">Loading...</div>
+    </div>
+
+    <header>
+        <img src="../ASSETS/nav-icons/logo.png" onclick="reload()" draggable="false">
+
+        <nav>
+            <a href="#page-1">About</a>
+            <a href="#page-2">Experiences</a>
+            <a href="#page-3">Work</a>
+            <a href="#page-4">Contact</a>
+        </nav>
+
+        <input type="checkbox" id="phone-button" onchange="menuPhone(this)">
+    </header>
+
+    <menu id="menu">
+        <nav>
+            <a href="#page-1" onclick="menuClose()">About</a>
+            <a href="#page-2" onclick="menuClose()">Experiences</a>
+            <a href="#page-3" onclick="menuClose()">Work</a>
+            <a href="#page-4" onclick="menuClose()">Contact</a>
+        </nav>
+
+        <div id="medias-phone">
+            <a href="https://www.linkedin.com/in/diogo-santos-5b300a2a0/"><img src="../ASSETS/medias/linkedin.png" alt="LinkdIn"></a>
+            <a href="https://github.com/diogo-s4ntos"><img src="../ASSETS/medias/github.png" alt="GitHub"></a>
+            <a href="https://twitter.com/diogoms4ntos"><img src="../ASSETS/medias/twitter.png" alt="Twitter"></a>
+        </div>
+    </menu>
+
+    <main>
+        <section>
+            <article class="half-secondary">
+                <div id="presentation">
+                    <p data-aos="slide-left">Hi, my name is</p>
+                    <h2 data-aos="slide-right">Diogo Santos</h2>
+                    <p data-aos="slide-left">Student of web developing in Lisbon</p>
+                </div>
+            </article>
+            <article class="half-primary">
+                <img src="../ASSETS/imgs/avatar-png.png" alt="Avatar of me" data-aos="zoom-in" draggable="false">
+            </article>
+        </section>
+
+        <section id="page-1">
+            <div id="about-container">
+                <h1 class="page-title" data-aos="slide-right">About me</h1>
+                <p>My name is Diogo Santos. I'm a student of web developing in Lisbon, with graeter focus on frontend. I'm passionate about movies, music and make websites, basically everything that use technology.
+                <br><br>Integer ultricies, augue ac condimentum blandit, sapien nibh fringilla augue, vitae condimentum ante lorem ac elit. Nam cursus leo ut commodo maximus. Proin dignissim vel orci et aliquam. Sed dapibus quam tellus, a varius eros molestie eu. Phasellus ullamcorper erat vel nisl condimentum commodo. Mauris mollis tortor non ultrices feugiat. Aenean eu congue mi, ac efficitur mauris. Aliquam aliquet sed enim sit amet molestie. Proin ac placerat neque, eget auctor mauris. 
+                </p>
+                <a href="../ASSETS/cv.pdf" download="cv-diogo-santos" id="cv" onmouseover="hideText()" onmouseout="showText()">
+                    <button>
+                        <img src="../ASSETS/imgs/download.png" alt="Download" id="download-img" width="30rem">
+                        <span id="download-text">Download my CV</span>
+                    </button>
+                </a>
+            </div>
+        </section>
+
+        <section id="page-2">
+            <div id="exp-container">
+                <h1 class="page-title" data-aos="slide-right">Experiences</h1>
+                <p id="exp-1" style="display: flex;"><strong>Experience-1</strong><br>Integer ultricies, augue ac condimentum blandit, sapien nibh fringilla augue, vitae condimentum ante lorem ac elit. Nam cursus leo ut commodo maximus. Proin dignissim vel orci et aliquam. Sed dapibus quam tellus, a varius eros molestie eu. Phasellus ullamcorper erat vel nisl condimentum commodo. Mauris mollis tortor non ultrices feugiat. Aenean eu congue mi, ac efficitur mauris. Aliquam aliquet sed enim sit amet molestie. Proin ac placerat neque, eget auctor mauris. Proin imperdiet orci auctor scelerisque dapibus. Integer ac orci vel velit tristique viverra. Aliquam imperdiet molestie aliquam. Etiam non lorem sapien. Etiam pellentesque ex libero, laoreet vulputate libero elementum quis.</p>
+                <p id="exp-2"><strong>Experience-2</strong><br>Integer ultricies, augue ac condimentum blandit, sapien nibh fringilla augue, vitae condimentum ante lorem ac elit. Nam cursus leo ut commodo maximus. Proin dignissim vel orci et aliquam. Sed dapibus quam tellus, a varius eros molestie eu. Phasellus ullamcorper erat vel nisl condimentum commodo. Mauris mollis tortor non ultrices feugiat. Aenean eu congue mi, ac efficitur mauris. Aliquam aliquet sed enim sit amet molestie. Proin ac placerat neque, eget auctor mauris. Proin imperdiet orci auctor scelerisque dapibus. Integer ac orci vel velit tristique viverra. Aliquam imperdiet molestie aliquam. Etiam non lorem sapien. Etiam pellentesque ex libero, laoreet vulputate libero elementum quis.</p>
+                <p id="exp-3"><strong>Experience-3</strong><br>Integer ultricies, augue ac condimentum blandit, sapien nibh fringilla augue, vitae condimentum ante lorem ac elit. Nam cursus leo ut commodo maximus. Proin dignissim vel orci et aliquam. Sed dapibus quam tellus, a varius eros molestie eu. Phasellus ullamcorper erat vel nisl condimentum commodo. Mauris mollis tortor non ultrices feugiat. Aenean eu congue mi, ac efficitur mauris. Aliquam aliquet sed enim sit amet molestie. Proin ac placerat neque, eget auctor mauris. Proin imperdiet orci auctor scelerisque dapibus. Integer ac orci vel velit tristique viverra. Aliquam imperdiet molestie aliquam. Etiam non lorem sapien. Etiam pellentesque ex libero, laoreet vulputate libero elementum quis.</p>
+                <p id="exp-4"><strong>Experience-4</strong><br>Integer ultricies, augue ac condimentum blandit, sapien nibh fringilla augue, vitae condimentum ante lorem ac elit. Nam cursus leo ut commodo maximus. Proin dignissim vel orci et aliquam. Sed dapibus quam tellus, a varius eros molestie eu. Phasellus ullamcorper erat vel nisl condimentum commodo. Mauris mollis tortor non ultrices feugiat. Aenean eu congue mi, ac efficitur mauris. Aliquam aliquet sed enim sit amet molestie. Proin ac placerat neque, eget auctor mauris. Proin imperdiet orci auctor scelerisque dapibus. Integer ac orci vel velit tristique viverra. Aliquam imperdiet molestie aliquam. Etiam non lorem sapien. Etiam pellentesque ex libero, laoreet vulputate libero elementum quis. Integer ultricies, augue ac condimentum blandit, sapien nibh fringilla augue, vitae condimentum ante lorem ac elit. Nam cursus leo ut commodo maximus. Proin dignissim vel orci et aliquam. Sed dapibus quam tellus, a varius eros molestie eu. Phasellus ullamcorper erat vel nisl condimentum commodo. Mauris mollis tortor non ultrices feugiat. Aenean eu congue mi, ac efficitur mauris. Aliquam aliquet sed enim sit amet molestie. Proin ac placerat neque, eget auctor mauris. Proin imperdiet orci auctor scelerisque dapibus. Integer ac orci vel velit tristique viverra. Aliquam imperdiet molestie aliquam. Etiam non lorem sapien. Etiam pellentesque ex libero, laoreet vulputate libero elementum quis.</p>
+            </div>
+
+            <div id="exp_line">
+                <div id="exp_points">
+                    <input type="checkbox" id="exp_point_1" class="exp_point" onchange="exp1(this)" style="background-color: var(--text);">
+                    <input type="checkbox" id="exp_point_2" class="exp_point" onchange="exp2(this)">
+                    <input type="checkbox" id="exp_point_3" class="exp_point" onchange="exp3(this)">
+                    <input type="checkbox" id="exp_point_4" class="exp_point" onchange="exp4(this)">
+                </div>
+            </div>
+        </section>
+
+        <section id="page-3">
+            <article class="half-primary">
+                <h1 class="page-title" data-aos="slide-right">Recent projects</h1>
+                <p id="about-site-1" style="display: flex;">A streamming website that I make with two of my friends for our course. You can access the site and search for a movie or serie, see their principal informations, like rating, synopsis, direction, and save them in your list to watch later.</p>
+                <p id="about-site-2">2</p>
+                <p id="about-site-3">3</p>
+                <p id="about-site-4">4</p>
+
+                <div id="sites">
+                    <input type="checkbox" id="site-1" onchange="site1(this)" style="border: 3px solid var(--text);">
+                    <input type="checkbox" id="site-2" onchange="site2(this)">
+                    <input type="checkbox" id="site-3" onchange="site3(this)">
+                    <input type="checkbox" id="site-4" onchange="site4(this)">
+                </div>
+            </article>
+            <article class="half-secondary">
+                <div id="pc">
+                    <a target="_blank" href="#" id="monitor">
+                        <img src="../ASSETS/projetos/site1.png" alt="Projeto" id="projeto" width="100%" height="100%">
+                    </a>
+                    <img src="../ASSETS/imgs/base.png" id="base" draggable="false">
+                </div>
+            </article>
+        </section>
+
+        <section id="page-4">
+            <div id="form-container">
+                <h1 class="page-title" data-aos="slide-right">Talk to me</h1>
+
+                <form action="https://formspree.io/f/xqkvrzqw" method="POST" id="myForm">
+                    <input type="text" name="nome" id="first_name" placeholder="FIRST NAME*" oninput="validarLetras(this)" required>
+                    <input type="text" name="sobrenome" id="last_name" placeholder="LAST NAME*" oninput="validarLetras(this)" required>
+        
+                    <input type="email" name="email" id="email" placeholder="EMAIL*" required>
+                    <!-- <input type="text" name="phone" id="phone" placeholder="PHONE" maxlength="9" oninput="validarNumero(this)"> -->
+                    <input list="countries" name="country" placeholder="Country">
+                    <datalist id="countries"></datalist>
+        
+                    <input type="text" name="assunto" id="subject" placeholder="SUBJECT*" autocomplete="off" required>
+                    <textarea name="mensagem" id="message" placeholder="MESSAGE*" autocomplete="off" required></textarea>
+        
+                    <button type="submit" id="send" onmouseover="hideText_2()" onmouseout="showText_2()">
+                        <img src="../ASSETS/nav-icons/airplane-paper.png" alt="Enviar" id="send-img">
+                        <span id="send-text">Send</span>
+                      </button>
+                </form>
+
+                <div id="medias">
+                    <a href="https://www.linkedin.com/in/diogo-santos-5b300a2a0/"><img src="../ASSETS/medias/linkedin.png" alt="LinkdIn"></a>
+                    <a href="https://github.com/diogo-s4ntos"><img src="../ASSETS/medias/github.png" alt="GitHub"></a>
+                    <a href="https://twitter.com/diogoms4ntos"><img src="../ASSETS/medias/twitter.png" alt="Twitter"></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- <footer>
+        <div id="medias">
+            <a href="#"><img src="../ASSETS/medias/linkedin.png" alt="LinkdIn"></a>
+            <a href="#"><img src="../ASSETS/medias/github.png" alt="GitHub"></a>
+            <a href="#"><img src="../ASSETS/medias/twitter.png" alt="Twitter"></a>
+        </div>
+    </footer> -->
+
+    <!-- Script -->
+    <script src="../JS/script.js"></script>
+    <script src="../JS/exp.js"></script>
+    <script src="../JS/projects.js"></script>
+    <script src="../JS/contact.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+</body>
+</html>
