@@ -12,7 +12,7 @@ This project creates a visually appealing and intuitive Portfolio Web for front-
 
 - **Responsive Layout:** Ensuring accessibility and visual appeal on various devices.
 - **Custom Sections:** Presentation, skills, projects, experience, and contact information.
-- **Project Gallery:** Highlighting projects with details, descriptions, technologies used. <!-- and links to GitHub repositories or demo websites. -->
+- **Project Gallery:** Highlighting projects with details, descriptions and technologies used. <!-- and links to GitHub repositories or demo websites. -->
 - **Animations and Visual Effects:** Using JavaScript and CSS for animations and effects without compromising performance.
 - **Contact Form:** Facilitating communication with visitors through a functional form.
 
