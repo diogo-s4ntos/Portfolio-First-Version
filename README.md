@@ -6,7 +6,7 @@ This project creates a visually appealing and intuitive Portfolio Web for front-
 
 ## Screenshot
 
-![Captura de Ecrã (1)](https://github.com/diogo-s4ntos/Portfolio/assets/117995697/e4166647-40be-4753-a9b2-4b80ca8579fa)
+![image](https://github.com/diogo-s4ntos/Portfolio/assets/117995697/652acb5a-4f1a-4237-9798-c1458c692548)
 
 ## Key Features
 
