@@ -1,9 +1,41 @@
-<h1>Portfolio</h1>
-Idea of portfolio in HTML, CSS  e JavaScript, for presenting my selfe for a posible future employer.
+# Portfolio Web - Front-End Developer
 
-<h1>Screenshot</h1>
+## Project Description
+
+This project creates a visually appealing and intuitive Portfolio Web for front-end developers using HTML, CSS, and JavaScript.
+
+## Screenshot
 
 ![Captura de Ecrã (1)](https://github.com/diogo-s4ntos/Portfolio/assets/117995697/e4166647-40be-4753-a9b2-4b80ca8579fa)
 
-<h1>Link</h1>
-<li>Live site URL: <a href="https://diogo-s4ntos.github.io/Portfolio/">Click Here</a></li>
+## Key Features
+
+- **Responsive Layout:** Ensuring accessibility and visual appeal on various devices.
+- **Custom Sections:** Presentation, skills, projects, experience, and contact information.
+- **Project Gallery:** Highlighting projects with details, descriptions, technologies used, and links to GitHub repositories or demo websites.
+- **Animations and Visual Effects:** Using JavaScript and CSS for animations and effects without compromising performance.
+- **Contact Form:** Facilitating communication with visitors through a functional form.
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+
+## Usage Instructions
+
+1. Clone the repository to your local machine: `git clone https://github.com/your-username/repository-name.git`
+2. Open the `index.html` file in your browser to view the portfolio.
+3. Personalize the content as needed.
+
+## Contributions
+
+Contributions are welcome! Feel free to open issues, propose improvements, or submit pull requests.
+
+## License
+
+This project is distributed under the [MIT License](link-to-license-file).
+
+## Link
+
+**Live site URL:** <a href="https://diogo-s4ntos.github.io/Portfolio/">Click Here</a>
