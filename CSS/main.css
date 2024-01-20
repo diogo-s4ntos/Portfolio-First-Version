@@ -75,9 +75,9 @@ section:nth-child(1){
     width: 60%;
     border-radius: 50%;
     box-shadow: inset 17px -17px 40px #5a0e83, 
-                inset -17px 17px 40px #b01cff,
+                inset -17px 17px 40px var(--secondary),
                 8px -18px 36px #5a0e83,
-                -18px 18px 36px #b01cff;
+                -18px 18px 36px var(--secondary);
 }
 
 section:nth-child(2){
