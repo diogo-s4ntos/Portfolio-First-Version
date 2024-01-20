@@ -10,7 +10,7 @@ function site1(checkbox){
         document.getElementById('site-4').style.border = '3px solid #8515c1';
         document.getElementById('site-4').checked = false;
 
-        // document.getElementById('link').href = '#';
+        // document.getElementById('monitor').href = '#';
 
         document.getElementById('about-site-1').style.display = 'flex';
         document.getElementById('about-site-2').style.display = 'none';
@@ -31,7 +31,7 @@ function site2(checkbox){
         document.getElementById('site-4').style.border = '3px solid #8515c1';
         document.getElementById('site-4').checked = false;
 
-        // document.getElementById('link').href = '#';
+        // document.getElementById('monitor').href = '#';
 
         document.getElementById('about-site-1').style.display = 'none';
         document.getElementById('about-site-2').style.display = 'flex';
@@ -52,7 +52,7 @@ function site3(checkbox){
         document.getElementById('site-4').style.border = '3px solid #8515c1';
         document.getElementById('site-4').checked = false;
 
-        // document.getElementById('link').href = '#';
+        document.getElementById('monitor').href = 'https://diogo-s4ntos.github.io/Loopstudios-Landing-Page/';
 
         document.getElementById('about-site-1').style.display = 'none';
         document.getElementById('about-site-2').style.display = 'none';
@@ -73,7 +73,7 @@ function site4(checkbox){
         document.getElementById('site-3').style.border = '3px solid #8515c1';
         document.getElementById('site-3').checked = false;
 
-        // document.getElementById('link').href = '#';
+        document.getElementById('monitor').href = 'https://diogo-s4ntos.github.io/galleria./';
 
         document.getElementById('about-site-1').style.display = 'none';
         document.getElementById('about-site-2').style.display = 'none';
